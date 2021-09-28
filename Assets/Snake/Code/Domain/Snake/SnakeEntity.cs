@@ -62,6 +62,8 @@ namespace Snake.Domain {
 		}
 
 		public Vector2Int MovingDirection { get; set; }
+		
+
 		public List<BodyPart> BodyParts { get; private set; }
 		public int Size { get; private set; }
 	}

@@ -30,5 +30,12 @@ namespace Snake.Application.Commands {
 				snake.MovingDirection = Vector2Int.down;
 			}
 		}
+		
+		private float GetAngleFromVector(Vector2Int dir)
+		{
+			float n = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+			if (n < 0) n += 360;
+			return n;
+		}
 	}
 }

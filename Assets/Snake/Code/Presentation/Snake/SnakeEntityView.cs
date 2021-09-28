@@ -29,6 +29,7 @@ namespace Snake.Presentation.Snake {
 		}
 
 		private void AddBodyPart() {
+
 			snakeBody.Add(Instantiate(bodyPart, snakeBody[snakeBody.Count - 1].transform.position, Quaternion.identity,
 				transform));
 		}
