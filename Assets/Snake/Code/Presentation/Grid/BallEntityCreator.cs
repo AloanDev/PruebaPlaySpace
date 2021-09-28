@@ -13,7 +13,8 @@ namespace Snake.Code.Presentation.Grid {
 		private BallEntityView ballEntityView;
 		
 		private void Awake() {
-			mainCamera = Camera.main;
+			
+			mainCamera = FindObjectOfType<Camera>();
 			var sizeX = mainCamera.pixelWidth / (float) GameInstaller.grid.Columns;
 			var sizeY = mainCamera.pixelHeight / (float) GameInstaller.grid.Rows;
 			bodyPartSize = new Vector2(sizeX / 100f, sizeY / 100f);
