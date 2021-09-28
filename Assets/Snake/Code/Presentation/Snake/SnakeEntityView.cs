@@ -6,7 +6,7 @@ namespace Snake.Presentation.Snake {
 	public class SnakeEntityView : MonoBehaviour {
 		[SerializeField] private GameObject bodyPart;
 
-		private List<GameObject> snakeBody;
+		public List<GameObject> snakeBody;
 		private Camera mainCamera;
 		private Vector2 bodyPartSize;
 
