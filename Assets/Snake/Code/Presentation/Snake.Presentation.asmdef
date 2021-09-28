@@ -1,0 +1,16 @@
+{
+    "name": "Snake.Presentation",
+    "references": [
+        "GUID:f3275c5c801b55c4c81f9c51e8c1b895",
+        "GUID:e890df59704706442bc8f4a0306350cf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
