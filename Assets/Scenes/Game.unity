@@ -291,7 +291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 1.9000244, y: -3.2000122}
+  m_AnchoredPosition: {x: 1.9001465, y: -3.2000732}
   m_SizeDelta: {x: 100.3, y: 100.5}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &57799841
@@ -1006,7 +1006,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.9000244, y: 0.5}
+  m_AnchoredPosition: {x: 1.9001465, y: 0.5}
   m_SizeDelta: {x: 100.3, y: 100.5}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &697353925
@@ -1266,6 +1266,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &881828329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881828331}
+  - component: {fileID: 881828330}
+  m_Layer: 0
+  m_Name: CoinCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &881828330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881828329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ec186229e74cf7a151118bbb8c2b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 3901350742651686307, guid: c6e98d038829d4b4586b9ef71ee2d4cc, type: 3}
+--- !u!4 &881828331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881828329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &884601427
 GameObject:
@@ -2110,7 +2154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1446656678
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2780,7 +2824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3aca227a2e2e8b4aad1698429aeee8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPart: {fileID: 599082360987539413, guid: 76e1de1ccdf9e66448255050b9a5fa32, type: 3}
+  bodyPart: {fileID: 599082360987539413, guid: 61cd8db90e5bcb643b0845d84b02b9ea, type: 3}
   snakeBody:
   - {fileID: 599082360987539413, guid: 61cd8db90e5bcb643b0845d84b02b9ea, type: 3}
   - {fileID: 599082360987539413, guid: 76e1de1ccdf9e66448255050b9a5fa32, type: 3}
@@ -2897,7 +2941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -4.5, y: -3.2000122}
+  m_AnchoredPosition: {x: -4.5, y: -3.2000732}
   m_SizeDelta: {x: 100.3, y: 100.5}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2010366114
